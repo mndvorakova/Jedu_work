@@ -40,7 +40,7 @@ public class Customer {
     //počítání věku
     public int getAge() {
         int year = Calendar.getInstance().get(Calendar.YEAR);
-        return year = this.birthYear;
+        return year - this.birthYear;
     }
 
 
